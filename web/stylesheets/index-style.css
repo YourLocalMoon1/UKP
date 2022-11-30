@@ -2,3 +2,7 @@
 
 /* UKP's stylesheet file for the index.html file. */
 /* You can edit it, if you already know the CSS programming language. */
+
+main {
+    font-family: 'Times New Roman', Times, serif;
+}
