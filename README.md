@@ -7,6 +7,9 @@ ____
 So, you want to try out editing UKP's source code, and **CHANGING THE OWNER NAME AND REMOVING THE CREDITS, S6S?** You, innocent person, I don't talk about you. You're okay. Don't worry.
 
 To clone this project, you simply need to:
+
+### 1'st way
+
 - Download [Git](https://git-scm.com/)
   * 1. Goto into the website
   * 2. Find the cyan monitor
@@ -21,6 +24,14 @@ To clone this project, you simply need to:
   * 3. Wait until the installing finishes, and you're done!
 - Open your terminal, and type the following command: `cd {YOUR DIRECTORY HERE}`
 - Copy & paste the command in there: `git clone https://github.com/YourLocalMoon1/UKP.git`.
+
+### 2'nd way
+
+- 1. Go to the GitHub page of the project (come on, you're already on it)
+- 2. Click on the green "<> Code" button
+- 3. Click on the "Download Zip" button
+- 4. If you have Windows 10, simply open and extract it. If you don't, install [7-Zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/), and then extract it using one of these tools.
+- 5. Move the extracted folder anywhere you want, and TADA! You're done.
 
 **Please know that it will create another folder, so if you want to download it into your desktop. just change your directory to Desktop, and it will create a folder in there.**
 
