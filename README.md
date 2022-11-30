@@ -27,11 +27,11 @@ To clone this project, you simply need to:
 
 ### 2'nd way
 
-- 1. Go to the GitHub page of the project (come on, you're already on it)
-- 2. Click on the green "<> Code" button
-- 3. Click on the "Download Zip" button
-- 4. If you have Windows 10, simply open and extract it. If you don't, install [7-Zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/), and then extract it using one of these tools.
-- 5. Move the extracted folder anywhere you want, and TADA! You're done.
+- Go to the GitHub page of the project (come on, you're already on it)
+- Click on the green "<> Code" button
+- Click on the "Download Zip" button
+- If you have Windows 10, simply open and extract it. If you don't, install [7-Zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/), and then extract it using one of these tools.
+- Move the extracted folder anywhere you want, and TADA! You're done.
 
 **Please know that it will create another folder, so if you want to download it into your desktop. just change your directory to Desktop, and it will create a folder in there.**
 
