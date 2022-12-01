@@ -3,12 +3,13 @@
     <head>
         <title>UKP Instant Messenger &bull; Home</title>
         <link rel="stylesheet" href="stylesheets/index-style.css">
+        <script type="text/javascript" src="/eel.js"></script>
     </head>
     <body>
-        <div id="navbar">
-
-        </div>
-        <main>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+          </ul>
+        <main  style="margin-left:25%;padding:1px 16px;height:1000px;">
             <h1>UKP Instant Messenger</h1>
             <p>
                 UKP is a open-source instant messenger, made in the year 2022.
@@ -17,11 +18,22 @@
                 And also, it contains slash commands. For example, you can type commands like:
                 <br />
                 <code>
-                    /clear
-                </code> stands for clearing the chat history,
-                like if you want to hide something from your parents, if you know what i meant <img src="images/emojis/smileys-and-people/smirk-32x32-37711.png" height="16px" width="16px" />
-                
+                    /clear (Clears the chat, the user who you're talking to won't see it.)
+                    <br />
+                    /gif {type} (Sends any GIF file, ex: /gif dog)<br />
+                </code>.. And much much more! So, what are you waiting for? Join UKP now!
             </p>
+            <h2>Quick Log-in</h2>
+            <form>
+                <input type="text" placeholder="Username" name="username">
+                <input type="password" placeholder="Password" name="password">
+                <button id="submit">Submit</button>
+            </form>
+            <script type="text/javascript">
+                document.querySelector("button").onclick = function (){
+                    eel.testPy()(alert);
+                }
+            </script>
         </main>
     </body>
 </html>

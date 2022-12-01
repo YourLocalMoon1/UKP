@@ -1,11 +1,11 @@
 {
   "name": "ukp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UKP is a open-source instant messenger, made in the year 2022. It contains many useful features, such as sending photos, text files and actually, any file. You can also view photos/images in-messenger (no need to click on it) the user who's talking to you sent you.",
-  "main": "server.js",
+  "main": "client.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "python client.py"
   },
   "repository": {
     "type": "git",
