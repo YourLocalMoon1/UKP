@@ -37,10 +37,6 @@ class Encryption:
 
 if __name__ == "__main__":
     Enc = Encryption(genKey=False)
-    a = Enc.Encrypt("Hello")
-    print(f"Encrypted: {a}")
-    a = Enc.Decrypt(a)
-    print(f"Decrypted: {a}")
 
 
 ### Key generating server ###
