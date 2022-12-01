@@ -3,6 +3,35 @@
 /* UKP's stylesheet file for the index.html file. */
 /* You can edit it, if you already know the CSS programming language. */
 
-main {
-    font-family: 'Times New Roman', Times, serif;
+body {margin:0;}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main li {
+  float: left;
+}
+
+main li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+main li a:hover:not(.active) {
+  background-color: #111;
+}
+
+main .active {
+  background-color: #04AA6D;
 }
